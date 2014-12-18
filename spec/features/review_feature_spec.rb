@@ -32,4 +32,9 @@ feature 'reviewing' do
 		expect(page).not_to have_link('Delete Richies Cantina Review')
 	end
 
+	# scenario 'one review per restaurant per user only' do
+	# 	expect(page).to have_link("Edit Richies Catina")
+	# 	expect(page).not_to have_link("Review Richies Catina")
+	# end
+
 end
