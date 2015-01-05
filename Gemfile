@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'dotenv-rails', :groups => [:development, :test, :production]
-
 group :test do
 	gem 'byebug'
   gem 'capybara'
